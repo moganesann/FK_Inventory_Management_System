@@ -1,0 +1,93 @@
+
+label{
+
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial;
+	
+	
+}
+.bg
+{
+	background:#073548;
+	padding:50px;
+	color: white;
+	
+}
+
+form {
+	margin-top:5px;
+	width: 550px;
+	height: 500px;
+	border: 10px solid #00CED1;
+	padding: 20px;
+	background: #4d4d4d;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: Jazz LET, fantasy;
+	font-size: 35px;
+	color: #001b33;
+	
+}
+
+input {
+	border: 2px solid black;
+	width: 80%;
+	padding: 10px;
+	margin: 8px auto;
+	border-radius: 5px;
+	background: #e6e6e6;
+}
+label {
+	color: #fff;
+	font-size: 28px;
+	padding: 10px;
+}
+
+input[type=submit] 
+{
+  background-color: RoyalBlue;
+  height: 40px;
+  width: 100px;
+  color: white; 
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px; 
+  margin: auto; 
+}
+
+input[type=submit]:hover 
+{
+  background-color: Red;
+}
+
+input[type=reset]
+{
+  background-color: green;
+  height: 40px;
+  width: 100px;
+  color: white; 
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px; 
+  margin: auto; 
+}
+
+input[type=reset]:hover 
+{
+  background-color: MediumSpringGreen;
+}
+
+.error 
+{
+   background: red;
+   color: #A94442;
+   padding: 10px;
+   width: 80%;
+   border-radius: 5px;
+   margin: 20px auto;
+}

@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: inherit;
+}
+
+html{
+	height: 100%;
+}
+
+body {
+	background-color: #D4E1F5;
+}
+
+.header
+{
+	padding: 10px;
+	text-align: center;
+	background-color: #1abc9c;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 14px;
+}
+
+.header .logo
+{
+	padding: 0 10px;
+}
+
+.vendor
+{
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	padding-top: 20px;
+	display: inline;
+}
+
+.vendor .vendorlist {
+	position: relative;
+	display: flex-start;
+	min-height: 530px;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.vendor .vendorlist .input_field{
+	position: relative;
+	display: flex-start;
+	min-height: 20px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+
+.vendor .vendorlist .input_field label{
+	width: 200px;
+	display: inline-block;
+	color: #757575;
+	margin-right: 0px;
+	font-size: 16px;
+}
+
+.vendor .vendorlist .input_field .input{
+	width: 200px;
+	outline: none;
+	border: 1px solid #d5dbd9;
+	font-size: 16px;
+	padding: 4px 8px;
+	border-radius: 2px;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+.display{
+	width: 100%;
+	padding: 20px;
+	padding-top: 20px;
+	position: relative;
+	display: flex-start;
+	min-height: 530px;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.btn{
+	position: relative;
+	padding: 5px 10px;
+	background: #03a9f4;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 6px;
+}
